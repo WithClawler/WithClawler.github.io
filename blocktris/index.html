@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slice Tower Public Docs</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f2ea;
+        --surface: #fffaf2;
+        --ink: #1f1d19;
+        --muted: #5f594d;
+        --line: #d8cfbf;
+        --accent: #c65c2a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background:
+          radial-gradient(circle at top, rgba(198, 92, 42, 0.12), transparent 34%),
+          linear-gradient(180deg, #fbf7ef 0%, var(--bg) 100%);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 18px 40px rgba(31, 29, 25, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        line-height: 1.2;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+
+      p,
+      li {
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>Slice Tower / 슬라이스 타워</h1>
+        <p>Single-player arcade stacking game public docs.</p>
+        <p><strong>Package:</strong> com.clawler.slicetower</p>
+        <p><strong>Source repo:</strong> WithClawler/blocktris</p>
+        <ul>
+          <li><a href="https://withclawler.github.io/blocktris/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

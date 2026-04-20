@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "apps": [
+    {
+      "slug": "blocktris",
+      "repo": "WithClawler/blocktris",
+      "package_name": "com.clawler.slicetower",
+      "name": {
+        "ko": "슬라이스 타워",
+        "en": "Slice Tower"
+      },
+      "description": "Single-player arcade stacking game public docs.",
+      "docs": [
+        {
+          "id": "privacy-policy",
+          "title": "Privacy Policy",
+          "public_url": "https://withclawler.github.io/blocktris/privacy-policy/"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-04-20T15:40:08+00:00"
+}

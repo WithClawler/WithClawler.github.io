@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WithClawler Public Docs</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f3efe7;
+        --surface: #fffaf2;
+        --ink: #1f1d19;
+        --muted: #5f594d;
+        --line: #d8cfbf;
+        --accent: #c65c2a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background:
+          radial-gradient(circle at top, rgba(198, 92, 42, 0.1), transparent 34%),
+          linear-gradient(180deg, #fbf7ef 0%, var(--bg) 100%);
+        color: var(--ink);
+      }
+
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      header {
+        margin-bottom: 28px;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        line-height: 1.2;
+        font-size: clamp(2rem, 5vw, 3.2rem);
+      }
+
+      p,
+      li {
+        line-height: 1.65;
+        color: var(--muted);
+      }
+
+      .grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 18px 40px rgba(31, 29, 25, 0.08);
+      }
+
+      h2 {
+        margin: 0 0 10px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>WithClawler Public Docs</h1>
+        <p>Public-facing policy and support pages for published apps.</p>
+      </header>
+      <section class="grid">
+
+        <article class="card">
+          <h2><a href="/blocktris/">Slice Tower</a></h2>
+          <p>슬라이스 타워</p>
+          <p><strong>Package:</strong> com.clawler.slicetower</p>
+          <ul><li><a href="https://withclawler.github.io/blocktris/privacy-policy/">Privacy Policy</a></li></ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

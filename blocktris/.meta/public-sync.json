@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "source_repo": "WithClawler/blocktris",
+  "source_manifest": "docs/public/manifest.json",
+  "app_slug": "blocktris",
+  "synced_at": "2026-04-20T15:40:08+00:00",
+  "docs": [
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy",
+      "source_file": "docs/privacy-policy/index.html",
+      "public_path": "blocktris/privacy-policy/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/",
+      "source_sha256": "d8843b7c656c11672ff2c66ef6b0f4608e8feeb93f85f88cd39456c6a402e38d"
+    }
+  ]
+}
