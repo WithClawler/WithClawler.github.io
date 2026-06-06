@@ -4,10 +4,10 @@
     {
       "slug": "blocktris",
       "repo": "WithClawler/blocktris",
-      "package_name": "com.clawler.slicetower",
+      "package_name": "com.makeitbetter.stackrush",
       "name": {
-        "ko": "슬라이스 타워",
-        "en": "Slice Tower"
+        "ko": "스택 러시",
+        "en": "Stack Rush"
       },
       "description": "Single-player arcade stacking game public docs.",
       "docs": [
@@ -20,5 +20,5 @@
       "app_ads_txt_url": "https://withclawler.github.io/app-ads.txt"
     }
   ],
-  "generated_at": "2026-05-29T16:37:03+00:00"
+  "generated_at": "2026-06-06T16:25:27+00:00"
 }
