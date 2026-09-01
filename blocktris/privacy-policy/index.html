@@ -118,14 +118,19 @@
           <strong>com.makeitbetter.stackrush</strong>.
         </p>
         <p>
-          Effective date: <strong>2026-06-07</strong>
+          Effective date: <strong>2026-07-25</strong>
         </p>
 
         <h2>1. What the app does</h2>
         <p>
-          Stack Rush is a single-player arcade game. It is designed to be
-          playable without creating an account or signing in. The app includes
-          optional rewarded ads and an online daily leaderboard.
+          Stack Rush is an all-ages single-player arcade game. It is playable
+          without creating an account, signing in, or completing an age check.
+          The app does not ask for, determine, or store a player's date of
+          birth or age profile. Every player receives 10 plays per UTC day.
+          After those plays are used, any player may voluntarily watch an
+          optional rewarded ad to recharge 10 plays. The online daily
+          leaderboard is a separate feature that is used only after the player
+          explicitly chooses to join it.
         </p>
 
         <h2>2. Data stored on your device</h2>
@@ -133,41 +138,103 @@
           The app stores a small amount of gameplay data locally on the device
           so the game can remember values such as your remaining plays, last
           recorded height, best recorded height, cumulative total height, and
-          daily leaderboard identity.
+          the UTC day used for the daily reset. The app does not store a date
+          of birth, age, or age-profile result. If a player separately joins
+          the daily leaderboard, the app stores the leaderboard policy
+          version, whether a decision was made, the opt-in choice, the decision
+          time, and a server-issued leaderboard identity consisting of a
+          private player secret, player ID, and fixed game alias.
+          A stable leaderboard player ID or secret is not created before opt-in.
         </p>
         <p>
-          This local save data stays on the device unless you remove the app,
-          clear the app's storage through Android settings, or the operating
-          system removes the app data.
+          Android backup and device-transfer backup are disabled for the app,
+          so this local save data stays in the app's storage on that device
+          unless you remove the app, clear its storage through Android
+          settings, or the operating system removes the app data.
         </p>
 
         <h2>3. Online leaderboard</h2>
         <p>
-          Stack Rush can submit daily leaderboard records to a hosted leaderboard
-          endpoint. The submitted data may include a locally generated player
-          ID, display name, UTC day key, total height, best run height, max
-          combo, score, app version, and submission time.
+          For players who separately choose to join, Stack Rush can submit
+          daily leaderboard records to a hosted leaderboard endpoint. The
+          score submission includes the server-issued player ID, UTC day key,
+          total height, best run height, max combo, score, and app version. The
+          service uses its own UTC day, submission time, and fixed alias rather
+          than trusting those values from the device.
         </p>
         <p>
-          The display name is generated locally by default and can be changed in
-          the app. It should not contain personal information. The leaderboard
-          is public within the app experience and may show ranked display names
-          and scores to other players.
+          The service generates an alias in the fixed
+          <strong>Rook-XXXXXXXX</strong> format; it is not a free-text profile
+          field and cannot be changed by a score submission. Public leaderboard
+          responses show ranked aliases and scores but do not expose the
+          private authentication player ID. Choosing to use rewarded
+          advertising does not also join the leaderboard. The app does not
+          create a leaderboard identity or submit or retrieve leaderboard data
+          before the player explicitly opts in.
+        </p>
+        <p>
+          The leaderboard issues a signed guest-session token containing the
+          player ID, issuance and expiration times, and a random nonce. It
+          expires after 10 minutes, is cached only in app-process memory, and is
+          not written to device storage by the app or stored as a session row by
+          the service.
+        </p>
+        <p>
+          The app sends the private player secret only to obtain a session or
+          request deletion. The service does not store that raw secret. It
+          stores a signing-secret HMAC credential hash, the internal player ID,
+          the fixed alias, creation time, and last session time.
+        </p>
+        <p>
+          To prevent abuse, the leaderboard converts the request IP address
+          into a secret-salted SHA-256 rate-limit key. The raw IP address is not
+          stored. Rate-limit rows expire after one hour and are removed during
+          later requests and by an hourly cleanup job, so deletion can occur up
+          to the next cleanup run after expiration.
+        </p>
+        <p>
+          Daily score records are retained for up to 30 UTC days. A leaderboard
+          credential that has not obtained a session for 180 days is deleted
+          together with its remaining scores. The hourly cleanup job performs
+          these removals, so deletion can occur on the next cleanup run after a
+          retention threshold is reached.
         </p>
 
         <h2>4. Advertising</h2>
         <p>
-          Stack Rush uses Google AdMob to provide optional rewarded ads. If you
-          choose to watch a rewarded ad, Google and its advertising partners may
-          process device, ad interaction, diagnostics, and advertising-related
-          data under their own policies. Stack Rush configures ads for a
-          general-audience maximum ad content rating.
+          After the 10 daily plays are used, any player can voluntarily choose
+          to use Google AdMob rewarded advertising to recharge 10 plays. The
+          recharge is granted only after the rewarded-ad completion callback.
+          Choosing not to watch an ad does not join the leaderboard or create
+          an advertising account; the regular 10-play allowance returns at the
+          next UTC daily reset.
+        </p>
+        <p>
+          Before the ads SDK is initialized or an ad is requested, Stack Rush
+          applies one child-safe configuration to every player: ads are
+          requested as non-personalized and child-directed, the request is
+          tagged as under the age of consent, and the maximum ad content rating
+          is G. The app then uses Google's User Messaging Platform where
+          required to obtain or refresh privacy choices. The automatic AdMob
+          startup provider is removed from the Android build so these settings
+          can be applied before initialization.
+        </p>
+        <p>
+          Google and its advertising partners may process approximate location
+          derived from IP address, app interactions, ad interactions,
+          diagnostics, and device or other identifiers for ad delivery,
+          measurement, security, and fraud prevention under their policies.
+          The Android advertising ID permission
+          (<strong>com.google.android.gms.permission.AD_ID</strong>) is removed
+          from the app manifest, so Stack Rush does not request access to the
+          Android Advertising ID. Removing that permission does not prevent
+          Google from processing the other limited data described above.
         </p>
 
         <h2>5. Data the app does not intentionally collect</h2>
         <p>
           Based on the current app implementation, Stack Rush does not
-          intentionally collect or transmit personal information such as your
+          intentionally collect or transmit account information such as your
           name, email address, phone number, precise location, contacts, photos,
           microphone input, or in-app account credentials. The app does not
           include in-game account creation, chat, in-app purchases, or precise
@@ -176,12 +243,20 @@
 
         <h2>6. Permissions, network access, and platform services</h2>
         <p>
-          The Android app manifest currently declares
-          <strong>INTERNET</strong>, <strong>ACCESS_NETWORK_STATE</strong>, and
-          <strong>WAKE_LOCK</strong>. These are manifest-declared Android
-          permissions included by the current build template and engine setup.
-          They are not presented to the user as Android runtime permission
-          prompts.
+          The Android app manifest declares <strong>INTERNET</strong>,
+          <strong>ACCESS_NETWORK_STATE</strong>, and
+          <strong>WAKE_LOCK</strong> for the game engine and the optional
+          online features. The Android advertising ID permission and the
+          Android Privacy Sandbox ad ID, attribution, and topics permissions
+          are explicitly removed from the merged app manifest. Stack Rush
+          therefore does not request access to those advertising identifiers
+          or interest-topic APIs.
+        </p>
+        <p>
+          The app manifest explicitly removes legacy shared-storage,
+          phone-state, boot-completed, and foreground-service permissions
+          contributed by transitive libraries. Stack Rush does not use those
+          capabilities.
         </p>
         <p>
           Based on the current implementation, the game code does not ask for
@@ -199,11 +274,14 @@
 
         <h2>7. Children</h2>
         <p>
-          Stack Rush is not directed to children and is not designed to
-          knowingly collect personal information from children through in-app
-          forms or account systems. If you believe app data has been handled in
-          a way that conflicts with this policy, contact the publisher so the
-          issue can be reviewed.
+          Stack Rush uses the same child-safe treatment for every player rather
+          than asking for age. The app does not request, store, or transmit a
+          date of birth or age profile. Every player receives the same 10-play
+          daily allowance and may voluntarily choose the optional rewarded-ad
+          recharge described above. All ad requests use the non-personalized,
+          child-directed, under-age-of-consent, maximum-G configuration.
+          Leaderboard participation remains a separate explicit choice, and no
+          leaderboard identity is created before that choice.
         </p>
 
         <h2>8. Changes to this policy</h2>
@@ -220,10 +298,19 @@
           <a href="mailto:doctorclawler@gmail.com">
             doctorclawler@gmail.com
           </a>
-          and include the app name, your leaderboard display name, and your
-          locally generated player ID if you can see it in the app. The
-          publisher will review the request and delete matching leaderboard
-          records that can be reasonably identified.
+          and include the app name and your <strong>Rook-XXXXXXXX</strong>
+          leaderboard alias. The publisher can use the protected administrator
+          deletion route to delete the matching credential and all of its
+          leaderboard records without asking you to disclose the private player
+          ID or secret.
+        </p>
+        <p>
+          Participants can also use the in-app leaderboard leave control. The
+          app sends an authenticated request to delete the credential and all
+          scores, then removes the local identity so it cannot be used again on
+          that device. If the remote request cannot complete, you can use the
+          email process above; the 30-day score and 180-day
+          inactive-credential limits still apply.
         </p>
         <p>
           Local gameplay data stored on your device can be deleted by
