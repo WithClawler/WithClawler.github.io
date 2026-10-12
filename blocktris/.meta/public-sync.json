@@ -3,7 +3,7 @@
   "source_repo": "WithClawler/blocktris",
   "source_manifest": "docs/public/manifest.json",
   "app_slug": "blocktris",
-  "synced_at": "2026-09-01T15:49:32+00:00",
+  "synced_at": "2026-10-12T09:17:38+00:00",
   "docs": [
     {
       "id": "privacy-policy",
@@ -11,7 +11,7 @@
       "source_file": "docs/privacy-policy/index.html",
       "public_path": "blocktris/privacy-policy/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/",
-      "source_sha256": "383bd68ab5502cb38123fcb9dab380a3f2ecee7222f2f7fffbe1299ab8c434ca"
+      "source_sha256": "b2956da2ddea472c6aab097d3a661791e79e94abe3a63203a255bbfaec2e4caf"
     }
   ],
   "app_ads_txt": {
