@@ -188,8 +188,10 @@
         </p>
         <p>
           To prevent abuse, the leaderboard converts the request IP address
-          into a secret-salted SHA-256 rate-limit key. The raw IP address is not
-          stored. Rate-limit rows expire after one hour and are removed during
+          into a secret-salted SHA-256 rate-limit key. The leaderboard application
+          does not store the raw IP address in its application database. Cloudflare
+          may separately process request metadata in its service and security logs.
+          Rate-limit rows expire after one hour and are removed during
           later requests and by an hourly cleanup job, so deletion can occur up
           to the next cleanup run after expiration.
         </p>
@@ -215,11 +217,10 @@
           applies one child-safe configuration to every player: ads are
           requested as non-personalized and child-directed, the request is
           tagged as under the age of consent, and the maximum ad content rating
-          is G. On the first optional ad action, the child-safe bridge updates Google's
-          User Messaging Platform consent information. It does not automatically
-          display a consent form. A required privacy-options entry can open its
-          separate form when the player selects it. Stack Rush does not perform
-          Octa Crush's per-launch UMP refresh or first-ad automatic form flow. The automatic AdMob
+          is G. When you first request an optional rewarded ad, the app contacts
+          Google to update the advertising privacy choices that apply. It does not
+          automatically display a consent form. You can open a required privacy-options
+          form using Privacy choices in the app. The automatic AdMob
           startup provider is removed from the Android build so these settings
           can be applied before initialization.
         </p>
