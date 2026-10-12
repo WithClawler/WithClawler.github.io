@@ -118,7 +118,7 @@
           <strong>com.makeitbetter.stackrush</strong>.
         </p>
         <p>
-          Effective date: <strong>2026-10-12</strong>
+          Effective date: <strong>2026-10-13</strong>
         </p>
         <p><a href="#data-deletion">Leaderboard data deletion</a> · <a href="https://mibstudio-support.pages.dev/stack-rush/">Support and publisher information</a></p>
 
@@ -215,8 +215,11 @@
           applies one child-safe configuration to every player: ads are
           requested as non-personalized and child-directed, the request is
           tagged as under the age of consent, and the maximum ad content rating
-          is G. The app then uses Google's User Messaging Platform where
-          required to obtain or refresh privacy choices. The automatic AdMob
+          is G. On the first optional ad action, the child-safe bridge updates Google's
+          User Messaging Platform consent information. It does not automatically
+          display a consent form. A required privacy-options entry can open its
+          separate form when the player selects it. Stack Rush does not perform
+          Octa Crush's per-launch UMP refresh or first-ad automatic form flow. The automatic AdMob
           startup provider is removed from the Android build so these settings
           can be applied before initialization.
         </p>
