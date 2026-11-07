@@ -3,7 +3,7 @@
   "source_repo": "WithClawler/blocktris",
   "source_manifest": "docs/public/manifest.json",
   "app_slug": "blocktris",
-  "synced_at": "2026-10-25T07:52:38+00:00",
+  "synced_at": "2026-11-07T09:01:58+00:00",
   "docs": [
     {
       "id": "privacy-policy",
@@ -11,7 +11,7 @@
       "source_file": "docs/privacy-policy/index.html",
       "public_path": "blocktris/privacy-policy/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/",
-      "source_sha256": "a22137ea227cb0b079bb319910759d97407227ba79c3c115508078563f8203c8",
+      "source_sha256": "1a7065f01e5f56ad4433351e7596c2c5134e2bac2067f753c106dedc12add66d",
       "show_in_hub": true
     },
     {
@@ -20,7 +20,7 @@
       "source_file": "docs/privacy-policy/en-US/index.html",
       "public_path": "blocktris/privacy-policy/en-US/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/en-US/",
-      "source_sha256": "e693145afade704a9d5a3f63197ae3c4d2b7ddc823bad5541cb0ea1abb195b4e",
+      "source_sha256": "8460013f0c8b0c82517e6473fe74e9d613a1818955c06836303e9dedc61541f2",
       "show_in_hub": false
     },
     {
@@ -29,7 +29,7 @@
       "source_file": "docs/privacy-policy/ko-KR/index.html",
       "public_path": "blocktris/privacy-policy/ko-KR/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ko-KR/",
-      "source_sha256": "3bb0f84287d8e38f37f107c964d764504be0b40dd7f69a871fc02a203f136edf",
+      "source_sha256": "866c8d5468ce482967a7372cacd202d38553858bdf0857a567011b6b336360f0",
       "show_in_hub": false
     },
     {
@@ -38,7 +38,7 @@
       "source_file": "docs/privacy-policy/ja-JP/index.html",
       "public_path": "blocktris/privacy-policy/ja-JP/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ja-JP/",
-      "source_sha256": "1d1a36afec654abc0cceeddf949f8265645699e66f4b40ae046f23b5eb34581d",
+      "source_sha256": "36c0ea776c6c03661def7a04d13e185bb375a464dacd26438af39b566cb805fc",
       "show_in_hub": false
     },
     {
@@ -47,7 +47,7 @@
       "source_file": "docs/privacy-policy/zh-CN/index.html",
       "public_path": "blocktris/privacy-policy/zh-CN/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zh-CN/",
-      "source_sha256": "531d17d966c436727529a2741398905570695b462497f4b49098788b004ed385",
+      "source_sha256": "751e38eaa74c4b0d00be779207d76717333b411fb447018b2fcd1d5f231ef561",
       "show_in_hub": false
     },
     {
@@ -56,7 +56,7 @@
       "source_file": "docs/privacy-policy/zh-TW/index.html",
       "public_path": "blocktris/privacy-policy/zh-TW/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zh-TW/",
-      "source_sha256": "c7dc82aba2a7120d3d54d0e7c9f2a779670e6a08f9400b9854f60b96ec67d0b5",
+      "source_sha256": "9c10f7b2837aed96ec3da493b2dd65db9d988af8585ec6621e508da3de8cb77a",
       "show_in_hub": false
     },
     {
@@ -65,7 +65,7 @@
       "source_file": "docs/privacy-policy/es-ES/index.html",
       "public_path": "blocktris/privacy-policy/es-ES/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/es-ES/",
-      "source_sha256": "587e48430fca1f9decfc2a0ecd8c689b0d7b83f4f4b6c7ad7b19fcc675858a54",
+      "source_sha256": "fc6d8199c432ea1c288c7ed275d6d0ae55073ed9e3846c3533e9116b6723cdb3",
       "show_in_hub": false
     },
     {
@@ -74,7 +74,7 @@
       "source_file": "docs/privacy-policy/fr-FR/index.html",
       "public_path": "blocktris/privacy-policy/fr-FR/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/fr-FR/",
-      "source_sha256": "10b712836f373d675b64884f35556bf3de3979aac5f040be2f061416e65628f2",
+      "source_sha256": "6d9a4866a6ccf70d239cc24b3a14cfd9b8d3b85c4307b4f32b9420e6ad8345a3",
       "show_in_hub": false
     },
     {
@@ -83,7 +83,7 @@
       "source_file": "docs/privacy-policy/de-DE/index.html",
       "public_path": "blocktris/privacy-policy/de-DE/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/de-DE/",
-      "source_sha256": "108f9b66b0b939ca7732300b698c0df93a6a51ba27d8bdffcfac384a02a4d9d0",
+      "source_sha256": "4f6e0ca00791481d4cfddaaa7a0bf6291444944c807776ad073223240fc08234",
       "show_in_hub": false
     },
     {
@@ -92,7 +92,7 @@
       "source_file": "docs/privacy-policy/pt-BR/index.html",
       "public_path": "blocktris/privacy-policy/pt-BR/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/pt-BR/",
-      "source_sha256": "b5db3b573e572eb874ca104091cd2ee67734f482c8dc86b1ff624130f5c859e3",
+      "source_sha256": "47149e2076c6c2c59caf74c0ed15ff221d85384efc6424101b586f1305239bdf",
       "show_in_hub": false
     },
     {
@@ -101,7 +101,7 @@
       "source_file": "docs/privacy-policy/it-IT/index.html",
       "public_path": "blocktris/privacy-policy/it-IT/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/it-IT/",
-      "source_sha256": "e9689a8b8a1e5c18f2822743558fb09fb76d32172eb776b3407153f3067c1584",
+      "source_sha256": "68053b2c16917b7aef36487bc11268354908face743277a10a99891baf307f85",
       "show_in_hub": false
     },
     {
@@ -110,7 +110,7 @@
       "source_file": "docs/privacy-policy/ru-RU/index.html",
       "public_path": "blocktris/privacy-policy/ru-RU/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ru-RU/",
-      "source_sha256": "a83f80e970b9c62066dba9e530518ee83a9a35e523f896841b9dad42f641acd9",
+      "source_sha256": "5b5fdfe59a1993a9533ae9a70c4dbd698461653970560463ee805223de77ac3f",
       "show_in_hub": false
     },
     {
@@ -119,7 +119,7 @@
       "source_file": "docs/privacy-policy/id-ID/index.html",
       "public_path": "blocktris/privacy-policy/id-ID/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/id-ID/",
-      "source_sha256": "93957a728aa552ab7eaee578f3d50f3d4a212cb4a8881f7abc8f8c5008dadb6e",
+      "source_sha256": "c596583336e968116d83bc58fb3f5efdc570440c67bac1a6fc6ace3966ddbf7f",
       "show_in_hub": false
     },
     {
@@ -128,7 +128,7 @@
       "source_file": "docs/privacy-policy/tr-TR/index.html",
       "public_path": "blocktris/privacy-policy/tr-TR/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/tr-TR/",
-      "source_sha256": "236e387b69e44420d74006fb11316a4c4efc43164bac986461a563b14b110ba5",
+      "source_sha256": "4fa4e73f24330d88a9cf9b874dc95ecf0f63d177998d593e0237f5899e71693e",
       "show_in_hub": false
     },
     {
@@ -137,7 +137,7 @@
       "source_file": "docs/privacy-policy/th-TH/index.html",
       "public_path": "blocktris/privacy-policy/th-TH/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/th-TH/",
-      "source_sha256": "d4f1ab7e9c872b18804481f6915b64be5f02b9626d5fc572e38c6fdc49a9d061",
+      "source_sha256": "e600b556d298a2dfb24bde6a102371540f594d4e108f4c22a999eed960670d61",
       "show_in_hub": false
     },
     {
@@ -146,7 +146,7 @@
       "source_file": "docs/privacy-policy/vi-VN/index.html",
       "public_path": "blocktris/privacy-policy/vi-VN/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/vi-VN/",
-      "source_sha256": "acec280da73d35a9ade81f17cb6adc06b821d6f1c730ef4be84045ad0205d709",
+      "source_sha256": "9f66b3c302914fff510e77108ab2fcd1b90b5db4bb9bc6e1b37b4a07e5c7a46e",
       "show_in_hub": false
     },
     {
@@ -155,7 +155,7 @@
       "source_file": "docs/privacy-policy/pl-PL/index.html",
       "public_path": "blocktris/privacy-policy/pl-PL/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/pl-PL/",
-      "source_sha256": "c3a304bf04359da449fb64c4c79c99369429c3a6da86226498a713fbc5f3c21f",
+      "source_sha256": "be444e0a20c0f46da5ea71c7d0b50983308e025201103a8b140ca4096397ccea",
       "show_in_hub": false
     },
     {
@@ -164,7 +164,7 @@
       "source_file": "docs/privacy-policy/nl-NL/index.html",
       "public_path": "blocktris/privacy-policy/nl-NL/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/nl-NL/",
-      "source_sha256": "f528b8c09ea5a052c20eb30c39dec6096b3b9c697b919436bba1d636dfab62a7",
+      "source_sha256": "6e91dc3e5600d5f37fcb6d40191d68c5f5052ff1cb29eb245830b918841ad806",
       "show_in_hub": false
     },
     {
@@ -173,7 +173,7 @@
       "source_file": "docs/privacy-policy/sv-SE/index.html",
       "public_path": "blocktris/privacy-policy/sv-SE/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/sv-SE/",
-      "source_sha256": "258acb3f7e44655c2bdb2993e1dd2ee89b18c1a89e46627801a44173c9a8daca",
+      "source_sha256": "32307dd0b7ded24c6827744f6b8370f88cd0e6cb50e569f984dd0b6975240138",
       "show_in_hub": false
     },
     {
@@ -182,7 +182,7 @@
       "source_file": "docs/privacy-policy/da-DK/index.html",
       "public_path": "blocktris/privacy-policy/da-DK/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/da-DK/",
-      "source_sha256": "2f7826bf37f1a7d614c789fa3f7b04f9a55c721a93c89e0b2ca5ec811d53e312",
+      "source_sha256": "9c1d4a38edc97fdafd4ad45416fa5b65cc2cec17dd78a84057d0a26b93431de6",
       "show_in_hub": false
     },
     {
@@ -191,7 +191,7 @@
       "source_file": "docs/privacy-policy/nb-NO/index.html",
       "public_path": "blocktris/privacy-policy/nb-NO/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/nb-NO/",
-      "source_sha256": "cd08924163c107364e5827ed717a445f812061244307dce98b4a6a901a727f9d",
+      "source_sha256": "7a1de516e63e2a29db4253359c720d6db8bb6094a80b5048503ab2b2a3eb9db1",
       "show_in_hub": false
     },
     {
@@ -200,7 +200,7 @@
       "source_file": "docs/privacy-policy/ar/index.html",
       "public_path": "blocktris/privacy-policy/ar/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ar/",
-      "source_sha256": "c1048470f6cbf9623e091f379272f39cd53b42945521e533aaadf932523e2c56",
+      "source_sha256": "a83cadd7e54cee176b98254de194afb315c21d7013cea57e4eb04a863d59fa24",
       "show_in_hub": false
     },
     {
@@ -209,7 +209,7 @@
       "source_file": "docs/privacy-policy/hi-IN/index.html",
       "public_path": "blocktris/privacy-policy/hi-IN/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/hi-IN/",
-      "source_sha256": "d5062d7ab04756e042429d656a5ea5449a6a19f5abd97041b51707c758490989",
+      "source_sha256": "6c04c5c97e24a7c5819a840877cf493971bf40b013bd585c2abe4eeb6c8b64d0",
       "show_in_hub": false
     },
     {
@@ -218,7 +218,7 @@
       "source_file": "docs/privacy-policy/bn-BD/index.html",
       "public_path": "blocktris/privacy-policy/bn-BD/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/bn-BD/",
-      "source_sha256": "e422a611ac28d8fcbce342ae999ee1c60bfe09b766c86a45b341a86c2f61d03c",
+      "source_sha256": "d144d4adadb3e4a28c00551497809be75dd3609ee845ae7c0001934897cdc983",
       "show_in_hub": false
     },
     {
@@ -227,7 +227,7 @@
       "source_file": "docs/privacy-policy/ur/index.html",
       "public_path": "blocktris/privacy-policy/ur/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ur/",
-      "source_sha256": "ef65b5dd9721f2e71cfc75cf4f2cebb107573d038d09e21ba4c07d4205186af8",
+      "source_sha256": "0894bded9c4c6e524321d68241ff09f1f89ce14ac2d4e90a19b879b53ae63cc1",
       "show_in_hub": false
     },
     {
@@ -236,7 +236,7 @@
       "source_file": "docs/privacy-policy/sw/index.html",
       "public_path": "blocktris/privacy-policy/sw/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/sw/",
-      "source_sha256": "e4cc251515160a3b76a075e3adade0bdeb73b4fd1f79aa0a1e218005bf7606e4",
+      "source_sha256": "5b48fb53536bf1c3ac62de75d1e725dc1dddfd514924b8047ae597d2c3f79093",
       "show_in_hub": false
     },
     {
@@ -245,7 +245,7 @@
       "source_file": "docs/privacy-policy/af/index.html",
       "public_path": "blocktris/privacy-policy/af/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/af/",
-      "source_sha256": "c4d40468a869dddd6488a972378d48a3100321cfab4360ed466f9ab512248e76",
+      "source_sha256": "3f0d0770156e4a2714ca720f8f62cc14f2233f708a7eebece029f69a9cf36092",
       "show_in_hub": false
     },
     {
@@ -254,7 +254,7 @@
       "source_file": "docs/privacy-policy/am/index.html",
       "public_path": "blocktris/privacy-policy/am/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/am/",
-      "source_sha256": "4257bc4819d3503e3be6c4d2d2313166830f50e7ae0771ff6b68361787e8d398",
+      "source_sha256": "245d688adc319efe72a3deb4c417a8cbcdda1ebe7e408508ee1e13806cf63e87",
       "show_in_hub": false
     },
     {
@@ -263,7 +263,7 @@
       "source_file": "docs/privacy-policy/ha/index.html",
       "public_path": "blocktris/privacy-policy/ha/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ha/",
-      "source_sha256": "4c5ae58b1eb57c643551f982bf86e7fd2bc2632a5707a1f8fb1a7bf3bede441f",
+      "source_sha256": "ffcde8a52d889e351bfd7daebd2a7c29cb06274f6688bfaaa3be19b0e6623aa2",
       "show_in_hub": false
     },
     {
@@ -272,7 +272,7 @@
       "source_file": "docs/privacy-policy/yo/index.html",
       "public_path": "blocktris/privacy-policy/yo/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/yo/",
-      "source_sha256": "f46b7df21127ec89ded75719c5946a5fea1f935145e7c032802bc4894966aab6",
+      "source_sha256": "d51cc27673e7fb30e74554575c60837b166142e5ba1d4d060e62896e008ac30f",
       "show_in_hub": false
     },
     {
@@ -281,7 +281,7 @@
       "source_file": "docs/privacy-policy/zu/index.html",
       "public_path": "blocktris/privacy-policy/zu/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zu/",
-      "source_sha256": "918fbae156088dd8b0b55c49ad83cb06b1404b80bd1fc21998a90548568fcea5",
+      "source_sha256": "75ebd797501527b845a296395acb0446d4f3e122963d7b8f5d98535e7b499437",
       "show_in_hub": false
     }
   ],
