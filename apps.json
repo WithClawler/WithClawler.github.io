@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "apps": [
+    {
+      "slug": "blocktris",
+      "repo": "WithClawler/blocktris",
+      "package_name": "com.makeitbetter.stackrush",
+      "name": {
+        "ko": "스택 러시",
+        "en": "Stack Rush"
+      },
+      "description": "Single-player arcade stacking game public docs.",
+      "docs": [
+        {
+          "id": "privacy-policy",
+          "title": "Privacy Policy",
+          "public_url": "https://withclawler.github.io/blocktris/privacy-policy/"
+        }
+      ],
+      "app_ads_txt_url": "https://withclawler.github.io/app-ads.txt"
+    }
+  ],
+  "generated_at": "2026-06-06T16:25:27+00:00"
+}

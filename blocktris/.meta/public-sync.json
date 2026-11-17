@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "source_repo": "WithClawler/blocktris",
+  "source_manifest": "docs/public/manifest.json",
+  "app_slug": "blocktris",
+  "synced_at": "2026-11-17T15:27:08+00:00",
+  "docs": [
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy",
+      "source_file": "docs/privacy-policy/index.html",
+      "public_path": "blocktris/privacy-policy/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/",
+      "source_sha256": "dce369e3e97614a2fea4e34e0971571a7993b77b67a672770feb8ca2291c8743",
+      "show_in_hub": true
+    },
+    {
+      "id": "privacy-policy-en-US",
+      "title": "Privacy policy",
+      "source_file": "docs/privacy-policy/en-US/index.html",
+      "public_path": "blocktris/privacy-policy/en-US/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/en-US/",
+      "source_sha256": "4cc3ed4aea545826bd2a8e5ba4836686599088c4f3aa8c8d7be9001598c85e29",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ko-KR",
+      "title": "개인정보 방침",
+      "source_file": "docs/privacy-policy/ko-KR/index.html",
+      "public_path": "blocktris/privacy-policy/ko-KR/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ko-KR/",
+      "source_sha256": "349e4378286a28345cf07a023e1be72537d18aec4a0226d0758b438bdfe5b7a3",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ja-JP",
+      "title": "プライバシーポリシー",
+      "source_file": "docs/privacy-policy/ja-JP/index.html",
+      "public_path": "blocktris/privacy-policy/ja-JP/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ja-JP/",
+      "source_sha256": "9b8402812817d45ccbda1724886f5e73ee1188b36b8985af4df6ec51666680a2",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-zh-CN",
+      "title": "隐私政策",
+      "source_file": "docs/privacy-policy/zh-CN/index.html",
+      "public_path": "blocktris/privacy-policy/zh-CN/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zh-CN/",
+      "source_sha256": "a7cf5c4f023bb5beec88a5fecff615f4bbf75d508df3e3b3a01fc7d73ef1f249",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-zh-TW",
+      "title": "隱私權政策",
+      "source_file": "docs/privacy-policy/zh-TW/index.html",
+      "public_path": "blocktris/privacy-policy/zh-TW/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zh-TW/",
+      "source_sha256": "b1e70b487961396529c405b2ace871bdd699161671caf95f3199f83ce8224ebb",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-es-ES",
+      "title": "Política de privacidad",
+      "source_file": "docs/privacy-policy/es-ES/index.html",
+      "public_path": "blocktris/privacy-policy/es-ES/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/es-ES/",
+      "source_sha256": "02bb9de19ef10a9e3ccc0273c8107fbfe90718f572d6a2ba606704310a35d376",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-fr-FR",
+      "title": "Politique de confidentialité",
+      "source_file": "docs/privacy-policy/fr-FR/index.html",
+      "public_path": "blocktris/privacy-policy/fr-FR/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/fr-FR/",
+      "source_sha256": "1d52d568b25026172f9ed3dee468aaf21f848958e475a8f45e74dbd740be60b7",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-de-DE",
+      "title": "Datenschutzerklärung",
+      "source_file": "docs/privacy-policy/de-DE/index.html",
+      "public_path": "blocktris/privacy-policy/de-DE/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/de-DE/",
+      "source_sha256": "a28ef3381ddc2d13cbb966f0c06ee53433b5869036d83b6f10749f4ae72df05e",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-pt-BR",
+      "title": "Política de privacidade",
+      "source_file": "docs/privacy-policy/pt-BR/index.html",
+      "public_path": "blocktris/privacy-policy/pt-BR/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/pt-BR/",
+      "source_sha256": "eee38f205c395b49c29ae24925a6ba5bbb5f1571442f6c44dab75e88932f8aed",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-it-IT",
+      "title": "Informativa sulla privacy",
+      "source_file": "docs/privacy-policy/it-IT/index.html",
+      "public_path": "blocktris/privacy-policy/it-IT/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/it-IT/",
+      "source_sha256": "5d6a912663a16569685525d0db1c33e9c865fa63643c7a2f71c09681c6f94011",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ru-RU",
+      "title": "Политика конфиденциальности",
+      "source_file": "docs/privacy-policy/ru-RU/index.html",
+      "public_path": "blocktris/privacy-policy/ru-RU/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ru-RU/",
+      "source_sha256": "537784640bcbd5d301eb943708605fb4969d96b50a32cf2b8f8eda258caa8ce0",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-id-ID",
+      "title": "Kebijakan privasi",
+      "source_file": "docs/privacy-policy/id-ID/index.html",
+      "public_path": "blocktris/privacy-policy/id-ID/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/id-ID/",
+      "source_sha256": "69bba44c2280e63caf66d643f0a18b9f7d7a55dfd5aee5ee5c64a4e4fdd6a12b",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-tr-TR",
+      "title": "Gizlilik politikası",
+      "source_file": "docs/privacy-policy/tr-TR/index.html",
+      "public_path": "blocktris/privacy-policy/tr-TR/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/tr-TR/",
+      "source_sha256": "19dac1d3158822785688c44000f43c786041ae8bc1195076d2c156b900230d60",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-th-TH",
+      "title": "นโยบายความเป็นส่วนตัว",
+      "source_file": "docs/privacy-policy/th-TH/index.html",
+      "public_path": "blocktris/privacy-policy/th-TH/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/th-TH/",
+      "source_sha256": "ee3e328870e087f7949a2c55f7822e0cb56c065bff6ed9266737e71712951783",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-vi-VN",
+      "title": "Chính sách quyền riêng tư",
+      "source_file": "docs/privacy-policy/vi-VN/index.html",
+      "public_path": "blocktris/privacy-policy/vi-VN/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/vi-VN/",
+      "source_sha256": "bb1a568f5537cae173da140502547c8685c0eb4b8858ea1f3d7c068bd75f6ad1",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-pl-PL",
+      "title": "Polityka prywatności",
+      "source_file": "docs/privacy-policy/pl-PL/index.html",
+      "public_path": "blocktris/privacy-policy/pl-PL/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/pl-PL/",
+      "source_sha256": "69b128a31ea19e211c5ba9a47bc40cdddc9a8a1c2c8749e2488abc7724eda8b6",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-nl-NL",
+      "title": "Privacybeleid",
+      "source_file": "docs/privacy-policy/nl-NL/index.html",
+      "public_path": "blocktris/privacy-policy/nl-NL/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/nl-NL/",
+      "source_sha256": "a4d189a856f96ecd97d845bfe7eae788c27858384cd9b639dd2bf5864a393cfa",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-sv-SE",
+      "title": "Integritetspolicy",
+      "source_file": "docs/privacy-policy/sv-SE/index.html",
+      "public_path": "blocktris/privacy-policy/sv-SE/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/sv-SE/",
+      "source_sha256": "d300147b8b88bf97ffb9cabaa85ded4a95e97b3f9c45ddc4d9f2835edbf7619b",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-da-DK",
+      "title": "Privatlivspolitik",
+      "source_file": "docs/privacy-policy/da-DK/index.html",
+      "public_path": "blocktris/privacy-policy/da-DK/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/da-DK/",
+      "source_sha256": "3f40b0d4a1a6d555fb34306fd419fa3c69cc8d35031a5808f36cecadc4b3803e",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-nb-NO",
+      "title": "Personvernerklæring",
+      "source_file": "docs/privacy-policy/nb-NO/index.html",
+      "public_path": "blocktris/privacy-policy/nb-NO/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/nb-NO/",
+      "source_sha256": "ad665bf6965688a5771be58247f3ade6e7f4ce955199a614a203298daa16ada1",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ar",
+      "title": "سياسة الخصوصية",
+      "source_file": "docs/privacy-policy/ar/index.html",
+      "public_path": "blocktris/privacy-policy/ar/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ar/",
+      "source_sha256": "c61d773d69741b5dbb6b2fd8334d3850f14059a11346ab167f1d72d88cd48bf6",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-hi-IN",
+      "title": "निजता नीति",
+      "source_file": "docs/privacy-policy/hi-IN/index.html",
+      "public_path": "blocktris/privacy-policy/hi-IN/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/hi-IN/",
+      "source_sha256": "c9718a6cc71ca70092e6727a79d747185c03513926d5c598bbfb9d507ca8248e",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-bn-BD",
+      "title": "গোপনীয়তা নীতি",
+      "source_file": "docs/privacy-policy/bn-BD/index.html",
+      "public_path": "blocktris/privacy-policy/bn-BD/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/bn-BD/",
+      "source_sha256": "fda133bf99c3d1372e0a31b70ed410193fb588d19996153d2a67cfa783646686",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ur",
+      "title": "رازداری کی پالیسی",
+      "source_file": "docs/privacy-policy/ur/index.html",
+      "public_path": "blocktris/privacy-policy/ur/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ur/",
+      "source_sha256": "ac216163a7a1be335f9c7a511b8bb6ffe3615e02d522273a09470fe49b973763",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-sw",
+      "title": "Sera ya faragha",
+      "source_file": "docs/privacy-policy/sw/index.html",
+      "public_path": "blocktris/privacy-policy/sw/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/sw/",
+      "source_sha256": "ae6a6cd208215815542c74d3034b73e8d79f663d91a8c23588caed8b5638e857",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-af",
+      "title": "Privaatheidsbeleid",
+      "source_file": "docs/privacy-policy/af/index.html",
+      "public_path": "blocktris/privacy-policy/af/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/af/",
+      "source_sha256": "a1cce869c90b9fe4bb8f6fe09b8d3e6b52d31861f079480e91a806ca74e14044",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-am",
+      "title": "የግላዊነት ፖሊሲ",
+      "source_file": "docs/privacy-policy/am/index.html",
+      "public_path": "blocktris/privacy-policy/am/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/am/",
+      "source_sha256": "1b2c9071b33a6a94491868911f6fff2752e8a2479ed523fcaf94f0ce73694d30",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-ha",
+      "title": "Manufar sirri",
+      "source_file": "docs/privacy-policy/ha/index.html",
+      "public_path": "blocktris/privacy-policy/ha/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ha/",
+      "source_sha256": "0cffaa088bb5bfa1027851451b33eb6286014fa44e2ff026a6f7c2276210ba48",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-yo",
+      "title": "Ìlànà ìpamọ́",
+      "source_file": "docs/privacy-policy/yo/index.html",
+      "public_path": "blocktris/privacy-policy/yo/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/yo/",
+      "source_sha256": "bc7153b1ea1901bca6c10c08031b214cf21f3139569b93da004358f1cb35ec89",
+      "show_in_hub": false
+    },
+    {
+      "id": "privacy-policy-zu",
+      "title": "Inqubomgomo yobumfihlo",
+      "source_file": "docs/privacy-policy/zu/index.html",
+      "public_path": "blocktris/privacy-policy/zu/index.html",
+      "public_url": "https://withclawler.github.io/blocktris/privacy-policy/zu/",
+      "source_sha256": "4e91f3ef6d141683a403da0d02ebdc9daa778780478b2d3da5dd06ca4d9ffed0",
+      "show_in_hub": false
+    }
+  ],
+  "app_ads_txt": {
+    "source_file": "docs/public/app-ads.txt",
+    "public_path": "app-ads.txt",
+    "public_url": "https://withclawler.github.io/app-ads.txt",
+    "source_sha256": "03333b0e345011293f6c2057ecffa0a4094935e0fde0206780df32a6715cae68"
+  }
+}
