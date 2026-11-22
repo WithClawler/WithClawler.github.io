@@ -3,7 +3,7 @@
   "source_repo": "WithClawler/blocktris",
   "source_manifest": "docs/public/manifest.json",
   "app_slug": "blocktris",
-  "synced_at": "2026-11-17T15:27:08+00:00",
+  "synced_at": "2026-11-22T07:30:05+00:00",
   "docs": [
     {
       "id": "privacy-policy",
@@ -11,7 +11,7 @@
       "source_file": "docs/privacy-policy/index.html",
       "public_path": "blocktris/privacy-policy/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/",
-      "source_sha256": "dce369e3e97614a2fea4e34e0971571a7993b77b67a672770feb8ca2291c8743",
+      "source_sha256": "b567b36a24db202eccd4697a995a3da99cde4f159323a02493f2bc3ba8b40e32",
       "show_in_hub": true
     },
     {
@@ -20,7 +20,7 @@
       "source_file": "docs/privacy-policy/en-US/index.html",
       "public_path": "blocktris/privacy-policy/en-US/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/en-US/",
-      "source_sha256": "4cc3ed4aea545826bd2a8e5ba4836686599088c4f3aa8c8d7be9001598c85e29",
+      "source_sha256": "2a8a3fd820e7a7da880e71e719f429a9e1842efdf626ee50854674bb9fba2480",
       "show_in_hub": false
     },
     {
@@ -29,7 +29,7 @@
       "source_file": "docs/privacy-policy/ko-KR/index.html",
       "public_path": "blocktris/privacy-policy/ko-KR/index.html",
       "public_url": "https://withclawler.github.io/blocktris/privacy-policy/ko-KR/",
-      "source_sha256": "349e4378286a28345cf07a023e1be72537d18aec4a0226d0758b438bdfe5b7a3",
+      "source_sha256": "84450801770126177ecfa6906eecd500761202ee45725db106d9c1bd0b83e660",
       "show_in_hub": false
     },
     {
